@@ -19,6 +19,15 @@ import ResetPass from "../Auth/ResetPass";
 import Notification from "../page/Notification/Notification";
 import About from "../page/Settings/About";
 import Login from "../Auth/Login";
+import Reviewers from "../page/reviewers/Reviewers";
+import Businesses from "../page/business/Businesses";
+import Campaings from "../page/campaings/Campaings";
+import Order from "../page/order/Order";
+import ReviewPricing from "../page/reviewPricing/ReviewPricing";
+import Transaction from "../page/transaction/Transaction";
+import ContentModeration from "../page/contentModeration/ContentModeration";
+import CampaingDetails from "../page/campaings/CampaingDetails";
+import ContentModerationDetails from "../page/contentModeration/ContentModerationDetails";
 
 
 export const router = createBrowserRouter([
@@ -37,6 +46,42 @@ export const router = createBrowserRouter([
       {
         path: "/dashboard/UserManagement",
         element: <UserManagement></UserManagement>,
+      },
+          {
+        path: "/dashboard/reviewers",
+        element: <Reviewers></Reviewers>
+      },
+          {
+        path: "/dashboard/businesses",
+        element: <Businesses></Businesses>
+      },
+          {
+        path: "/dashboard/campaings",
+        element: <Campaings></Campaings>
+      },
+       {
+        path: "/dashboard/campainDetails/:id",
+        element: <CampaingDetails></CampaingDetails>
+      },
+          {
+        path: "/dashboard/order",
+        element: <Order></Order>
+      },
+          {
+        path: "/dashboard/reviewPricing",
+        element: <ReviewPricing></ReviewPricing>
+      },
+          {
+        path: "/dashboard/transaction",
+        element: <Transaction></Transaction>
+      },
+          {
+        path: "/dashboard/contentModeration",
+        element: <ContentModeration></ContentModeration>
+      },
+         {
+        path: "/dashboard/contentModerationDetails/:id",
+        element: <ContentModerationDetails></ContentModerationDetails>
       },
       {
         path: "/dashboard/CreatorManagement",

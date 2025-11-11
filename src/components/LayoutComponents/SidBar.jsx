@@ -4,7 +4,7 @@ import create from "../../assets/routerImg/create.png";
 import settings from "../../assets/routerImg/settings.png";
 import subscription from "../../assets/routerImg/subscription.png";
 import user from "../../assets/routerImg/user.png";
-import logo from "../../assets/header/logo.png";
+import logo from "../../assets/header/vv.png";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import { FaChevronRight, FaHome } from "react-icons/fa";
@@ -153,8 +153,11 @@ const SidBar = () => {
 
   return (
     <div className="custom-sidebar h-[100vh] bg-white">
-      <div className="custom-sidebar-logo flex justify-center">
-        <img src={logo} alt="Logo" className="w-[160px]" />
+      <div className="custom-sidebar-logo flex gap-2 justify-center items-center my-9">
+       <div>
+         <img src={logo} alt="Logo" className="w-[30px]" />
+       </div>
+        <h1 className="text-blue-500 font-semibold text-2xl">Sampli</h1>
       </div>
       <div className="menu-items">
         {items.map((item) => {
@@ -179,7 +182,7 @@ const SidBar = () => {
                   isSettingsActive ||
                   isCreatorActive ||
                   isCategoriesActive
-                    ? "bg-[#E63946] text-white rounded-r-3xl "
+                    ? "bg-[#4176FC1A] text-gray-800 rounded-r-3xl "
                     : "bg-white rounded-r-3xl hover:bg-gray-200"
                 }`}
                 onClick={(e) => {
@@ -226,7 +229,7 @@ const SidBar = () => {
                       to={child.link}
                       className={`menu-item p-2 flex items-center cursor-pointer ${
                         selectedKey === child.key
-                          ? "bg-[#E63946] text-white"
+                          ? "bg-[#4176FC1A] text-gray-800"
                           : "hover:bg-gray-200"
                       }`}
                       onClick={() => {

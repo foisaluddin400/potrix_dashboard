@@ -79,11 +79,11 @@ export const PasswordTab = () => {
         </Form.Item>
 
         {/* Display error if password validations fail */}
-        {passError && <p className="text-red-500 text-sm mb-2">{passError}</p>}
+        {passError && <p className="text-blue-500 text-sm mb-2">{passError}</p>}
 
         <Form.Item>
           <div className="flex justify-center">
-          <button type="submit" className="w-full bg-[#E63946] text-white py-2">
+          <button type="submit" className="w-full bg-blue-500 text-white py-2">
                 Change Password
               </button>
           </div>

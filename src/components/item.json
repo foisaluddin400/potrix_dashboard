@@ -5,37 +5,55 @@
     "icon": "FaHome",
     "link": "/"
   },
-  {
-    "key": "userManagement",
-    "label": "User Management",
+ 
+   {
+    "key": "reviewers",
+    "label": "Reviewers",
     "icon": "FiUser",
-    "link": "/dashboard/UserManagement"
+    "link": "/dashboard/reviewers"
   },
   
-  {
-    "key": "categoriesManagement",
-    "label": "Categories Management",
-    "icon": "TbCategory2",
-    "link": "/dashboard/CategoriesManagement/Categories",
-    "children": [
-      {
-        "key": "categories",
-        "label": "Categories",
-        "link": "/dashboard/CategoriesManagement/Categories"
-      },
-      {
-        "key": "subcategory",
-        "label": "Subcategory",
-        "link": "/dashboard/CategoriesManagement/Subcategory"
-      }
-    ]
+   {
+    "key": "businesses",
+    "label": "Businesses",
+    "icon": "FiUser",
+    "link": "/dashboard/businesses"
+  },
+  
+   {
+    "key": "campaings",
+    "label": "Campaings",
+    "icon": "FiUser",
+    "link": "/dashboard/campaings"
+  },
+  
+   {
+    "key": "order",
+    "label": "Order",
+    "icon": "FiUser",
+    "link": "/dashboard/order"
   },
   {
-    "key": "subscription",
-    "label": "Subscription",
-    "icon": "TbCategory2",
-    "link": "/dashboard/Subscription"
+    "key": "reviewPricing",
+    "label": "Review Pricing",
+    "icon": "FiUser",
+    "link": "/dashboard/reviewPricing"
   },
+  {
+    "key": "transaction",
+    "label": "Transaction",
+    "icon": "FiUser",
+    "link": "/dashboard/transaction"
+  },
+  {
+    "key": "contentModeration",
+    "label": "Content Moderation",
+    "icon": "FiUser",
+    "link": "/dashboard/contentModeration"
+  },
+
+ 
+
   {
     "key": "settings",
     "label": "Settings",
@@ -56,17 +74,8 @@
         "key": "privacy",
         "label": "Privacy Policy",
         "link": "/dashboard/Settings/PrivacyPolicy"
-      },
-      {
-        "key": "faq",
-        "label": "FAQ",
-        "link": "/dashboard/Settings/FAQ"
-      },
-      {
-        "key": "about",
-        "label": "About Us",
-        "link": "/dashboard/Settings/aboutUs"
       }
+   
     ]
   }
 ]

@@ -9,14 +9,14 @@ import { PiMoneyLight } from "react-icons/pi";
 const Dashboard = () => {
   return (
     <div className=" ">
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-3 gap-4">
         <div className="flex gap-4 items-center bg-white p-6 rounded shadow">
           <div className="bg-red-100 w-[55px] rounded-full h-[55px] flex justify-center items-center text-3xl">
             <HiOutlineUserGroup className="text-red-500" />
           </div>
           <div>
             <h1 className="font-semibold text-2xl">1,100</h1>
-            <h1 className="text-zinc-500"> Total User</h1>
+            <h1 className="text-zinc-500"> Total Reviewers</h1>
           </div>
         </div>
         <div className="flex gap-4 items-center bg-white p-6 rounded shadow">
@@ -25,7 +25,7 @@ const Dashboard = () => {
           </div>
           <div>
             <h1 className="font-semibold text-2xl">1,100</h1>
-            <h1 className="text-zinc-500"> User Block</h1>
+            <h1 className="text-zinc-500"> Total Businesses</h1>
           </div>
         </div>
         <div className="flex gap-4 items-center bg-white p-6 rounded shadow">
@@ -34,7 +34,7 @@ const Dashboard = () => {
           </div>
           <div>
             <h1 className="font-semibold text-2xl">1,100</h1>
-            <h1 className="text-zinc-500"> Total Subscriber</h1>
+            <h1 className="text-zinc-500"> Blocked Reviewers</h1>
           </div>
         </div>
         <div className="flex gap-4 items-center bg-white p-6 rounded shadow">
@@ -43,9 +43,28 @@ const Dashboard = () => {
           </div>
           <div>
             <h1 className="font-semibold text-2xl">1,100</h1>
-            <h1 className="text-zinc-500"> Total Earning</h1>
+            <h1 className="text-zinc-500">Blocked Businesses</h1>
           </div>
         </div>
+        <div className="flex gap-4 items-center bg-white p-6 rounded shadow">
+          <div className="bg-red-100 w-[55px] rounded-full h-[55px] flex justify-center items-center text-3xl">
+            <HiOutlineUserGroup className="text-red-500" />
+          </div>
+          <div>
+            <h1 className="font-semibold text-2xl">1,100</h1>
+            <h1 className="text-zinc-500"> Pending Content</h1>
+          </div>
+        </div>
+        <div className="flex gap-4 items-center bg-white p-6 rounded shadow">
+          <div className="bg-sky-100 w-[55px] rounded-full h-[55px] flex justify-center items-center text-3xl">
+            <RiUserForbidLine className="text-sky-600" />
+          </div>
+          <div>
+            <h1 className="font-semibold text-2xl">1,100</h1>
+            <h1 className="text-zinc-500"> Total Campaings</h1>
+          </div>
+        </div>
+       
       </div>
       <div className="grid grid-cols-2 gap-4 mt-4 ">
         <div className="w-full h-full bg-white p-4 rounded shadow">
@@ -57,9 +76,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      <div className="w-full bg-white p-4 rounded shadow mt-4">
-        <ShopRegistration></ShopRegistration>
-      </div>
+   
     </div>
   );
 };

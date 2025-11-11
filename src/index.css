@@ -61,13 +61,13 @@ select option {
 
 /* Pagination buttons style */
 .ant-pagination-item {
-  border-radius: 50% !important; /* Make buttons circular */
+  border-radius: 5px !important; /* Make buttons circular */
 }
 
 /* Active pagination button */
 .ant-pagination-item-active {
-  background-color: #D9000A !important; /* Active background color */
-  border-color: #D9000A !important;    /* Active border color */
+  background-color: #3b8be7 !important; /* Active background color */
+  border-color: #3b8be7 !important;    /* Active border color */
 }
 
 /* Active pagination button text */

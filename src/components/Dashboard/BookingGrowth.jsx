@@ -73,7 +73,7 @@ const BookingGrowth = () => {
       {/* Header */}
       <div className="flex justify-between items-center mb-4">
         <p className="text-xl font-semibold text-gray-800">
-          Total Earnings
+          Businesses Growth
         </p>
 
         <Select
@@ -93,20 +93,21 @@ const BookingGrowth = () => {
           >
             <defs>
               <linearGradient id="colorValue" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#E63946" stopOpacity={0.8} />
-                <stop offset="95%" stopColor="#E63946" stopOpacity={0} />
+        <stop offset="5%" stopColor="#3b82f6" stopOpacity={1} />
+
+              <stop offset="95%" stopColor="#3b8be71c" stopOpacity={1} />
               </linearGradient>
             </defs>
             <CartesianGrid strokeDasharray="3 3" stroke="#edc4c500" />
-            <XAxis dataKey="month" stroke="#6b7280"  tick={{ fontSize: 12, fontWeight: 500 }}/>
-            <YAxis stroke="#6b7280"  tick={{ fontSize: 12, fontWeight: 500 }}/>
+            <XAxis dataKey="month" stroke="#3b82f6"  tick={{ fontSize: 12, fontWeight: 500 }}/>
+            <YAxis stroke="#3b82f6"  tick={{ fontSize: 12, fontWeight: 500 }}/>
             <Tooltip
               contentStyle={{ backgroundColor: "#fff", borderRadius: "8px" }}
             />
             <Area
               type="monotone"
               dataKey="value"
-              stroke="#E63946"
+              stroke="#3b82f6"
               fillOpacity={1}
               fill="url(#colorValue)"
             />

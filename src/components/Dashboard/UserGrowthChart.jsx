@@ -57,9 +57,6 @@ const UserGrowthChart = () => {
       style={{
         width: "100%",
         height: "100%",
-    
-
-       
       }}
     >
       <div className="flex justify-between items-center">
@@ -72,7 +69,7 @@ const UserGrowthChart = () => {
             fontSize: "18px",
           }}
         >
-          📈 User Growth
+          📈 Reviewers Growth
         </h3>
         <Select
           className="min-w-32"
@@ -93,11 +90,13 @@ const UserGrowthChart = () => {
           margin={{ top: 20, right: 20, left: 0, bottom: 10 }}
         >
           <defs>
-            <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="url(#colorValue)" stopOpacity={1} />
-              <stop offset="95%" stopColor="#14803c" stopOpacity={1} />
+            <linearGradient id="blueGradient" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="5%" stopColor="#3b82f6" stopOpacity={1} />
+
+              <stop offset="95%" stopColor="#3b8be71c" stopOpacity={1} />
             </linearGradient>
           </defs>
+
           <CartesianGrid strokeDasharray="3 3" stroke="#edc4c500" />
           <XAxis
             dataKey="name"
@@ -119,9 +118,11 @@ const UserGrowthChart = () => {
             cursor={{ fill: "#edc4c52d" }}
           />
           <Legend wrapperStyle={{ fontSize: "13px", fontWeight: "bold" }} />
+
+         
           <Bar
             dataKey="totalUser"
-            fill="url(#colorValue)"
+            fill="url(#blueGradient)"
             barSize={45}
             radius={[10, 10, 0, 0]}
           />
