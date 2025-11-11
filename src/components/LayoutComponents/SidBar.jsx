@@ -15,11 +15,24 @@ import { FiUser } from "react-icons/fi";
 import { IoSettingsOutline } from "react-icons/io5";
 import { TbCategory2 } from "react-icons/tb";
 import items from "../item.json";
+import { MdOutlineBusinessCenter } from "react-icons/md";
+import { LiaBandcamp } from "react-icons/lia";
+import { FaJediOrder } from "react-icons/fa";
+import { GiPriceTag } from "react-icons/gi";
+import { CiDollar } from "react-icons/ci";
+import { MdOndemandVideo } from "react-icons/md";
+
 const icons = {
   FaHome,
   FiUser,
   TbCategory2,
   IoSettingsOutline,
+  MdOutlineBusinessCenter,
+  LiaBandcamp,
+  FaJediOrder,
+  GiPriceTag,
+  CiDollar,
+  MdOndemandVideo
 };
 
 // const items = [

@@ -8,7 +8,7 @@ import { Navigate } from "../../Navigate";
 const CampaingDetails = () => {
   // ✅ Dummy Data
   const campaign = {
-    image: "https://i.ibb.co/qp8HfF5/bottle.png",
+    image: "https://cdn3d.iconscout.com/3d/premium/thumb/headphone-3d-icon-png-download-9770555.png?f=webp",
     name: "Summer Collection Review",
     description:
       "This is a test for summer collection before it sent out for mass production",

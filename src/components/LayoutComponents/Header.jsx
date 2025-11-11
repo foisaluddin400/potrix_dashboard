@@ -145,7 +145,7 @@ const Header = () => {
         <div className="flex gap-8 p-1 px-6">
           <div className="relative">
             <Link to={"/dashboard/Settings/notification"}>
-              <div className="w-[45px] h-[45px] flex items-center justify-center text-xl rounded-full bg-white text-black ">
+              <div className="w-[45px] h-[45px] flex items-center justify-center text-xl rounded-full bg-gray-100 text-black ">
                 <span>
                   <LuBell />
                 </span>
@@ -262,7 +262,7 @@ const Header = () => {
               </div>
             </Drawer>
 
-            <span className="absolute top-0 right-0 -mr-2  w-5 h-5 bg-white text-black text-xs flex items-center justify-center rounded-full">
+            <span className="absolute top-0 right-0 -mr-2  w-5 h-5 bg-green-50 text-black text-xs flex items-center justify-center rounded-full">
               0
             </span>
           </div>
@@ -277,7 +277,7 @@ const Header = () => {
                 />
               </div>
               <div className="text-end">
-                <h3>{"Loading..."}</h3>
+                <h3>{"Jhone Doe"}</h3>
                 <h4 className="text-sm">Admin</h4>
               </div>
             </div>

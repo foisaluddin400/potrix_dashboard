@@ -16,39 +16,39 @@
    {
     "key": "businesses",
     "label": "Businesses",
-    "icon": "FiUser",
+    "icon": "MdOutlineBusinessCenter",
     "link": "/dashboard/businesses"
   },
   
    {
     "key": "campaings",
     "label": "Campaings",
-    "icon": "FiUser",
+    "icon": "LiaBandcamp",
     "link": "/dashboard/campaings"
   },
   
    {
     "key": "order",
     "label": "Order",
-    "icon": "FiUser",
+    "icon": "FaJediOrder",
     "link": "/dashboard/order"
   },
   {
     "key": "reviewPricing",
     "label": "Review Pricing",
-    "icon": "FiUser",
+    "icon": "GiPriceTag",
     "link": "/dashboard/reviewPricing"
   },
   {
     "key": "transaction",
     "label": "Transaction",
-    "icon": "FiUser",
+    "icon": "CiDollar",
     "link": "/dashboard/transaction"
   },
   {
     "key": "contentModeration",
     "label": "Content Moderation",
-    "icon": "FiUser",
+    "icon": "MdOndemandVideo",
     "link": "/dashboard/contentModeration"
   },
 

@@ -22,7 +22,7 @@ const Campaings = () => {
       progressValue: 3,
       budget: "$25,000 of $100,000",
       date: "Mar 23, 2024 - Sep 30, 2024",
-      image: "https://i.ibb.co/qp8HfF5/bottle.png",
+      image: "https://cdn3d.iconscout.com/3d/premium/thumb/headphone-3d-icon-png-download-9770555.png?f=webp",
     },
     {
       key: 2,
@@ -32,7 +32,7 @@ const Campaings = () => {
       progressValue: 0,
       budget: "$25,000 of $100,000",
       date: "Mar 23, 2024 - Sep 30, 2024",
-      image: "https://i.ibb.co/YLFRpdb/fan.png",
+      image: "https://cdn3d.iconscout.com/3d/premium/thumb/headphone-3d-icon-png-download-9770555.png?f=webp",
     },
     {
       key: 3,
@@ -42,7 +42,7 @@ const Campaings = () => {
       progressValue: 100,
       budget: "$25,000 of $100,000",
       date: "Mar 23, 2024 - Sep 30, 2024",
-      image: "https://i.ibb.co/LpxML3Z/brush.png",
+      image: "https://cdn3d.iconscout.com/3d/premium/thumb/headphone-3d-icon-png-download-9770555.png?f=webp",
     },
     {
       key: 4,
@@ -52,7 +52,7 @@ const Campaings = () => {
       progressValue: 45,
       budget: "$25,000 of $100,000",
       date: "Mar 23, 2024 - Sep 30, 2024",
-      image: "https://i.ibb.co/xDYprKx/headphone.png",
+      image: "https://cdn3d.iconscout.com/3d/premium/thumb/headphone-3d-icon-png-download-9770555.png?f=webp",
     },
   ];
 
