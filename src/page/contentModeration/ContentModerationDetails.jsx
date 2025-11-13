@@ -4,7 +4,7 @@ import { Navigate } from "../../Navigate";
 const ContentModerationDetails = () => {
   return (
     <div className="bg-white p-3 h-[87vh] overflow-auto">
-      {/* Breadcrumb */}
+      {/* Breadcrdumb */}
       <Navigate title={"Content Moderation Details"} />
 
       <div className="">
